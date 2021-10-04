@@ -16,7 +16,7 @@ class LinkedList:
         """
         self.head = head
         self.tail = tail
-        self.length  = length
+        self.length = length
 
     def add(self, val):
         """
@@ -75,7 +75,6 @@ class LinkedList:
             predecessor = cur           # for the next checking, the new pre will be the cur for this time
             cur = cur.nex               # cur will be cur next
 
-
         return the_node
 
     def __get_node(self, start, index):
@@ -109,8 +108,6 @@ class LinkedList:
         """
         if not self.head:
             return
-
-        old_head = self.head  # record the old head
 
         pre_node = None       # the node before current node
         cur_node = self.head   # current node
