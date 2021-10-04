@@ -7,6 +7,6 @@ and Algorithm course in HKUST, I decided to do this project.
 
 ## What have been done:
 ### Data Structure
-1\ [Linked List]:https://github.com/ppxwdy/Python-Data-Structure-and-Algorithm/tree/main/Linked%20List
+1\ [Linked List](https://github.com/ppxwdy/Python-Data-Structure-and-Algorithm/tree/main/Linked%20List)
 
-2\ [BST]:https://github.com/ppxwdy/Python-Data-Structure-and-Algorithm/tree/main/Tree
+2\ [BST](https://github.com/ppxwdy/Python-Data-Structure-and-Algorithm/tree/main/Tree)
