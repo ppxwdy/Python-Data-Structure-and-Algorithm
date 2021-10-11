@@ -124,9 +124,9 @@ class sorts:
             else:
                 sortedlist.append(right[n2])
                 n2 += 1
-        print(left, right)
+
         # append the list which not used up to the end of sorted list
-        sortedlist += left[n1+1:] if n1 < length//2 else right[n2+1:]
+        sortedlist += left[n1:] if n1 < length//2 else right[n2:]
 
         if reverse:
             sortedlist = sortedlist[::-1]
@@ -163,5 +163,6 @@ class sorts:
 
 # l = [1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3]
 # sort = sorts(l)
-# a = sort.counting_sort()
+# # a = sort.counting_sort()
+# a = sort.merge_sort()
 # print(a)
