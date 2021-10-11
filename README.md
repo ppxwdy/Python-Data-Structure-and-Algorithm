@@ -13,3 +13,9 @@ and Algorithm course in HKUST, I decided to do this project.
 
 ### Algorithms
 1. [sorts](https://github.com/ppxwdy/Python-Data-Structure-and-Algorithm/tree/main/Algorithms/Sort%20Algorithms)
+    - sorts
+        - insertion sort
+        - bubble sort
+        - quick sort
+        - merge sort
+    - heap sort
