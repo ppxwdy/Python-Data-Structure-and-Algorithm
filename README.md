@@ -18,4 +18,5 @@ and Algorithm course in HKUST, I decided to do this project.
         - bubble sort
         - quick sort
         - merge sort
+        - counting sort
     - heap sort
