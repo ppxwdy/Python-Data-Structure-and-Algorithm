@@ -133,3 +133,35 @@ class sorts:
 
         return sortedlist
 
+    def counting_sort(self):
+        """
+        counting sort
+        :return: the sorted list
+        """
+
+        # create a dict to record the nums and the list of this num
+        record = dict()
+
+        # counting
+        for n in self.original_list:
+            if n in record:
+                record[n].append(n)
+            else:
+                record[n] = [n]
+
+        # applying quick sort to the key list, which has all the distinct num in the original list
+        sort = sorts(list(record.keys()))
+        nums = sort.quick_sort()
+        rtn = []
+
+        # connect the num lists by the order of their values
+        for num in nums:
+            rtn += record[num]
+
+        return rtn
+
+
+# l = [1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 5, 5, 5, 5, 5, 4, 4, 4, 4, 3, 3, 3, 3, 3]
+# sort = sorts(l)
+# a = sort.counting_sort()
+# print(a)
